@@ -1,0 +1,1 @@
+<a href="https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/">Challenge 1 link</a>
