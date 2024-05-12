@@ -1,3 +1,4 @@
+<body>
 class Solution {
     int cal_energy(int k, int[] energy) {
         int t, result = -1000, i, j;
@@ -16,8 +17,11 @@ class Solution {
         return cal_energy(k, energy);
     }
 }
+</body>
 
-========================================
-AUTHOR-SYED ALI ASAD
-Github-https://github.com/syedaliasad649
-========================================
+<hr/>
+
+<h1>AUTHOR-SYED ALI ASAD</h1>
+<h2>Author's Github Profile</h2>
+<a href="https://github.com/syedaliasad649"><img src="images/Screenshot 2024-05-12 142206.png"/></a>
+
