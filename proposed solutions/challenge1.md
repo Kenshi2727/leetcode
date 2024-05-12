@@ -1,23 +1,25 @@
-<body>
-class Solution {
-    int cal_energy(int k, int[] energy) {
-        int t, result = -1000, i, j;
-        for (i = 0; i < energy.length; i++) {
-            t = 0;
-            for (j = i; j < energy.length; j += k) {
-                t += energy[j];
-            }
-            if (t > result) 
-                result = t;
-        }
-        return result;
-    }
 
-    public int maximumEnergy(int[] energy, int k) {
-        return cal_energy(k, energy);
-    }
-}
-</body>
+<p>
+class Solution {                            <br/>
+    int cal_energy(int k, int[] energy) {       <br/>
+        int t, result = -1000, i, j;<br/>
+        for (i = 0; i < energy.length; i++) {<br/>
+            t = 0;<br/>
+            for (j = i; j < energy.length; j += k) {<br/>
+                t += energy[j];<br/><br/>
+            }<br/>
+            if (t > result) <br/>
+                result = t;<br/>
+        }<br/>
+        return result;<br/>
+    }<br/>
+
+    public int maximumEnergy(int[] energy, int k) {<br/>
+        return cal_energy(k, energy);<br/>
+    }<br/>
+}<br/>
+</p>
+
 
 <hr/>
 
