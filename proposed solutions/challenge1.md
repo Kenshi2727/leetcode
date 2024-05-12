@@ -13,7 +13,9 @@ class Solution {                            <br/>
         }<br/>
         return result;<br/>
     }<br/>
+</p>
 
+<p>
     public int maximumEnergy(int[] energy, int k) {<br/>
         return cal_energy(k, energy);<br/>
     }<br/>
@@ -25,5 +27,5 @@ class Solution {                            <br/>
 
 <h1>AUTHOR-SYED ALI ASAD</h1>
 <h2>Author's Github Profile</h2>
-<a href="https://github.com/syedaliasad649"><img src="images/Screenshot 2024-05-12 142206.png"/></a>
+<a href="https://github.com/syedaliasad649"><img src="../images/Screenshot 2024-05-12 142206.png"/></a>
 
