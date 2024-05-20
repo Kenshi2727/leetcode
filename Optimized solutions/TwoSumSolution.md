@@ -3,6 +3,7 @@
 <hr/>
 <h3>Solution Code</h3>
 
+//Solution-->
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int n=nums.length;
@@ -12,7 +13,7 @@ class Solution {
             map.put(nums[i],i);
         }
 
-        //craeting result array
+        //creating result array
         int[] result=new int[2];
         //if the current element is equal to the target
        for(int i=0;i<n;i++){
