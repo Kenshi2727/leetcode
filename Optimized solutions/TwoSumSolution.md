@@ -3,12 +3,13 @@
 <hr/>
 <h3>Solution Code</h3>
 
-<p>
+```
 
-class Solution {
+class Solution {                                   
     public int[] twoSum(int[] nums, int target) {
         int n=nums.length;
         //create a hashmap where key is nums[i] and value is i
+
         HashMap<Integer,Integer> map=new HashMap<>();
         for(int i=0;i<n;i++){
             map.put(nums[i],i);
@@ -38,6 +39,6 @@ class Solution {
     }
 }
 
-</p>
+```
 
 <hr />
