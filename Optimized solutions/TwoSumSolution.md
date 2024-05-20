@@ -3,7 +3,8 @@
 <hr/>
 <h3>Solution Code</h3>
 
-//Solution-->
+<p>
+
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int n=nums.length;
@@ -36,5 +37,7 @@ class Solution {
         return result;
     }
 }
+
+</p>
 
 <hr />
