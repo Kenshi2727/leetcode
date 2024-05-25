@@ -1,11 +1,11 @@
 <h1>Largest rectangle in histogram</h1>
 <h2>Current Approach:Brute force</h2>
 <h2>passed 88 / 99 testcases </h2>
-<h3 >Comments:
+<h3 >Comments:</h3>
 <span style="color:red">
 "I think to optimize it we need to implement stack concept"
 </span>
-</h3>
+
 
 
 <hr/>
