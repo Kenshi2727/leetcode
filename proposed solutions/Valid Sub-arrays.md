@@ -1,3 +1,7 @@
+# Valid Sub-arrays Problem Solution
+
+## Approach- Pure Bruteforce
+```
 arr=[3,2,1]
 counter=len(arr) 
 for i in range(2,len(arr)+1):
@@ -11,3 +15,5 @@ for i in range(2,len(arr)+1):
 			counter+=1
 
 print (counter)
+
+```
