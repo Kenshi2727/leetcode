@@ -12,7 +12,8 @@ let's say you want to add 342 and 465,here's how you add them-
    8 0 7
    -----
 
-In our case we have our number in reversed order in linked list which eventually makes it much more easier to find the sum.Here's how it makes it easier:
+In our case we have our number in reversed order in linked list which eventually makes it much more easier to find the sum.Here's how
+it makes it easier:
 
 Eg.-   3342 + 465
 ---
@@ -30,8 +31,9 @@ __________
 7->0->8->3
 __________
 
-since the order is reversed hence we can transfer the carry to the next node which is actually the next decimal position and that is exactly what we do
-while adding on paper, we forward the carry to the next decimal position. Imagine if the number wasn't reversed, how hard it would be to forward the carry compared to this flowery situation.
+since the order is reversed hence we can transfer the carry to the next node which is actually the next decimal position and
+that is exactly what we do while adding on paper, we forward the carry to the next decimal position. Imagine if the number wasn't
+reversed, how hard it would be to forward the carry compared to this flowery situation.
 
 There's one more test case you need to take care of:
  Let's say you want to add 7 and 8,
@@ -43,7 +45,9 @@ There's one more test case you need to take care of:
  5->1 
  ____
 
-That means we need to create a new node if a carry remains. So after completing the traversing the whole linked list, check if any carry remains if so then in order to accomodate we need to create a new decimal position(orr in our case a new node in our linked list).You can see that in the solution code I had done that after closing brackets of the while loop();
+That means we need to create a new node if a carry remains. So after completing the traversing the whole linked list, check if
+any carry remains if so then in order to accomodate we need to create a new decimal position(orr in our case a new node in our
+linked list).You can see that in the solution code I had done that after closing brackets of the while loop();
 ```
 
 <hr/>
