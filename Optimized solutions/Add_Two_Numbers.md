@@ -2,8 +2,9 @@
 <h2>Mathematical Approach</h2>
 
 ```
-You must have done elementary mathematics in your school(I guess you have....), so just remember that and focus on the way how you add two numbers.
-let's say you want to add 342 and 465,here's how you add them-
+You must have done elementary mathematics in your school(I guess you have....), so just remember that and focus on the way how
+you add two numbers:
+Let's say you want to add 342 and 465,here's how you add them-
 
    1->carry
    3 4 2                       
