@@ -13,8 +13,8 @@ Let's say you want to add 342 and 465,here's how you add them-
    8 0 7
    -----
 
-In our case we have our number in reversed order in linked list which eventually makes it much more easier to find the sum.Here's how
-it makes it easier:
+In our case we have our number in reversed order in linked list which eventually makes it much more easier to find the sum.Here's
+how it makes it easier:
 
 Eg.-   3342 + 465
 ---
