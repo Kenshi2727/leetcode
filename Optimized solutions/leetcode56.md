@@ -1,5 +1,5 @@
 <h1>Merge Interval Optimized Solution</h1>
-<h2>LinkedList Approach</h2>
+<h2>Greedy Approach</h2>
 <hr/>
 <h3>Solution Code</h3>
 
