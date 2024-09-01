@@ -35,7 +35,7 @@ now take 3
 Final Output-
 1 -> 5 -> 2 -> 4 -> 3
 
-Observe one thing very carefully. We are alternatively taking form start and end that means we can divide the linkedlist into
+Observe one thing very carefully. We are alternatively taking from start and end that means we can divide the linkedlist into
 two parts and reverse the second part of linked list and then select the nodes from first part and second part alternatively.
 
 We will use the concept of slow and fast pointers to reach the middle of linkedlist. Do not worry about odd length linkedlist.
