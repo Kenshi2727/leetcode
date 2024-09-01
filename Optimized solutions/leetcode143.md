@@ -69,7 +69,7 @@ Step-3 Split the linked list into two parts
       and 
 5 -> 4 -> null
 
-step-4 Merge them by choosing the nodes alternatively from the respective spliited linked lists
+step-4 Merge them by choosing the nodes alternatively from the respective splitted linked lists
 ------
 Final Output-
 1 -> 5 -> 2 -> 4 -> 3
