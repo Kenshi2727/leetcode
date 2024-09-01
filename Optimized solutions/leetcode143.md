@@ -1,5 +1,80 @@
 <h1>Reorder List Optimized Solution</h1>
 <h2>Linked List splitting Approach</h2>
+
+```
+If we see the problem carefully you will observe that we are taking nodes from the start and from the end alternatively one by one and thereby
+forming the required arrangement.
+Eg.-
+----
+1 -> 2 -> 3 -> 4
+first take 1
+1(start)
+then take 4(end)
+1->4
+now take 2(new start)
+1->4->2
+then take 3(new end)
+1->4->2->3
+
+Final Output-
+1 -> 4 -> 2 -> 3
+
+It is  also applicable to odd length linked list.
+1 -> 2 -> 3 -> 4-> 5
+first take 1
+1(start)
+then take 5(end)
+1->5
+now take 2
+1->5->2
+then take 4
+1->5->2->4
+now take 3
+1->5->2->4->3
+
+Final Output-
+1 -> 5 -> 2 -> 4 -> 3
+
+Observe one thing very carefully. We are alternatively taking form start and end that means we can divide the linkedlist into parts and reverse the
+second part  of linked list and then select the nodes from first part and second part alternatively.
+
+We will use the concept of slow and fast pointers to reach the middle of linkedlist. Do not worry about odd length linkedlist. In this case second
+part of linked list will be shorter than the first part but it will not affect the logic and we will still get the desired output.You can dry run
+yourself after analyzing the code.
+
+
+Step 1 - Reach the middle of linked list using slow and fast pointers
+------
+first half |  second half
+           | 
+1 -> 2 -> 3| -> 4-> 5 -> null
+          ||              |
+         slow           fast
+           |
+           |
+
+Step 2- Reverse the links in the second half
+------
+
+first half |  second half
+           | 
+1 -> 2 -> 3| <-4 <- 5 
+           |         
+           |     
+           |
+
+Step-3 Split the linked list into two parts
+------
+1 -> 2 -> 3 -> null
+      and 
+5 -> 4 -> null
+
+step-4 Merge them by choosing the nodes alternatively from the respective spliited linked lists
+------
+Final Output-
+1 -> 5 -> 2 -> 4 -> 3
+
+```
 <hr/>
 <h3>Solution Code</h3>
 
